@@ -54,3 +54,7 @@ const USERS = [
     isEnabled: true
   },];
  */
+
+  export const extendUsersSettings = function(){
+    
+  }

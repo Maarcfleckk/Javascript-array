@@ -7,13 +7,7 @@
 const MATES = ["john", "JACOB", "jinGleHeimer", "schmidt"];
 
 export const capitalizeMates = function (mates) {
-  const capitalizedMates = [];
-
-  for (let i = 0; i < mates.length; i++) {
-    const capitalizedName =
-      mates[i].charAt(0).toUpperCase() + mates[i].slice(1).toLowerCase();
-    capitalizedMates.push(capitalizedName);
-  }
-
-  return capitalizedMates;
+  return mates.map(
+    (mate) => mate.charAt(0).toUpperCase() + mate.slice(1).toLowerCase()
+  );
 };
