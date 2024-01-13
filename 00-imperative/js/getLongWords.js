@@ -15,7 +15,7 @@ export const getLongWords = function(LANGUAGES){
 
     for(let index = 0; index < collectionLenght; index++){
         const Language = `${LANGUAGES[index]}`;
-        if(Language.length > 5){
+        if(Language.length >= 5){
             longLanguages.push(Language);
         }
     }
