@@ -5,3 +5,6 @@
  */
 
 const SECONDS = [2, 5, 100];
+export const transformSecondsToWords = function (seconds) {
+  return seconds.map((second) => second.toString());
+};

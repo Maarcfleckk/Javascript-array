@@ -55,6 +55,10 @@ const USERS = [
   },];
  */
 
-  export const extendUsersSettings = function(){
-    
+  export const extendUsersSettings = function(users) {
+    return users.map((user, index) => ({
+      ...user,
+      id: index,
+      isEnabled: true,
+    }));
   }
