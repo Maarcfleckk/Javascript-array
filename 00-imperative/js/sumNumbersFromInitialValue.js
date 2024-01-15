@@ -15,6 +15,6 @@ export const sumNumbersFromInitialValue = function (NUMBERS, initialNumber) {
   for (let index = 0; index < collectionLenght; index++) {
     finalNumber += NUMBERS[index];
   }
-  
+
   return finalNumber;
 };

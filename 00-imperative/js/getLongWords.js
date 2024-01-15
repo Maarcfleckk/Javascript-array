@@ -19,6 +19,6 @@ export const getLongWords = function (LANGUAGES) {
       longLanguages.push(Language);
     }
   }
-  
+
   return longLanguages;
 };
