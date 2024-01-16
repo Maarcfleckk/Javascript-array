@@ -16,6 +16,6 @@ export const feedMonkeys = function (fruit) {
     const monkey = `${MONKEYS[index]} ${fruit}`;
     monkeys.push(monkey);
   }
-  
+
   return monkeys;
 };

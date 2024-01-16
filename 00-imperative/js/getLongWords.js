@@ -10,7 +10,6 @@ const LANGUAGES = ["Java", "C++", "JavaScript", "C#", "TypeScript"];
 const BEATLES = ["John", "George", "Paul", "Ringo"];
 
 export const getLongWords = function (LANGUAGES) {
-  
   const longLanguages = [];
   const collectionLenght = LANGUAGES.length;
 
