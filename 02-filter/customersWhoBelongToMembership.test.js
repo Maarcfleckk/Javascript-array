@@ -31,7 +31,7 @@ describe("Given customersWhoBelongToMembership", () => {
       { name: "FizzBuzz", member: true },
     ];
 
-    const member = customersWhoBelongToMembership(CUSTOMERS)
+    const member = customersWhoBelongToMembership(CUSTOMERS);
 
     expect(member).toBeDefined();
     expect(member).toEqual(expectedResult);

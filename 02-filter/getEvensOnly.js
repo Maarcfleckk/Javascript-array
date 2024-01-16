@@ -6,9 +6,9 @@
 
 const COUNTERS = [2, 25, 43, 12, 67, 42, 28];
 
-export const getEvensOnly = function(numbers){
-    const evenNumbers = numbers.filter((number)=>{
-        return number%2 === 0;
-    });
-    return evenNumbers;
-}
+export const getEvensOnly = function (numbers) {
+  const evenNumbers = numbers.filter((number) => {
+    return number % 2 === 0;
+  });
+  return evenNumbers;
+};

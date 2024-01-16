@@ -8,6 +8,6 @@ describe("Given getEvensOnly", () => {
     const number = getEvensOnly(COUNTERS);
 
     expect(number).toBeDefined();
-    expect(number).toEqual(expectedResult)
+    expect(number).toEqual(expectedResult);
   });
 });

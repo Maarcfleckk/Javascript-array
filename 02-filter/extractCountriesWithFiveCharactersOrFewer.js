@@ -6,10 +6,10 @@
 
 const COUNTRIES = ["United Kingdom", "Italy", "France", "Portugal", "Greece"];
 
-export const extractCountriesWithFiveCharactersOrFewer = function(words){
-    const shortWords = words.filter((word)=>{
-        return word.length <=5;
-    });
-    
-    return shortWords;
-}
+export const extractCountriesWithFiveCharactersOrFewer = function (words) {
+  const shortWords = words.filter((word) => {
+    return word.length <= 5;
+  });
+
+  return shortWords;
+};

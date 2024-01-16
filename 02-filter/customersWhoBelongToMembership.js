@@ -27,9 +27,9 @@ const CUSTOMERS = [
   },
 ];
 
-export const customersWhoBelongToMembership = function(members){
-  const actualMembers = members.filter((member)=>{
+export const customersWhoBelongToMembership = function (members) {
+  const actualMembers = members.filter((member) => {
     return member.member === true;
   });
   return actualMembers;
-}
+};
