@@ -7,3 +7,11 @@
  */
 
 const NUMBERS = [1, 2, 3, 4, 5];
+
+export const sumNumbersFromInitialValue = function(numbers, initialValue){
+    const sum = numbers.reduce((previousSum,number)=>{
+        return previousSum + number;
+    }, initialValue);
+
+    return sum;
+}
