@@ -13,10 +13,10 @@
 
 const LOCALES = ["EN", "GR", "FR", "IT", "PT"];
 
-export const createLocalesSettings = (LOCALES) =>{
-    return LOCALES.reduce((acc, locale, index)=>{
-       acc[locale] = {id:index, enabled: index === 0}; 
+export const createLocalesSettings = (LOCALES) => {
+  return LOCALES.reduce((acc, locale, index) => {
+    acc[locale] = { id: index, enabled: index === 0 };
 
-       return acc;
-    }, {})
-}
+    return acc;
+  }, {});
+};

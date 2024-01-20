@@ -19,9 +19,9 @@ const VOTERS = [
   { name: "Zack", age: 19, voted: false },
 ];
 
-export const getTotalVoters = function(VOTERS){
-  return VOTERS.reduce((acc, voter )=>{
+export const getTotalVoters = function (VOTERS) {
+  return VOTERS.reduce((acc, voter) => {
     const trueVoter = voter.voted === true ? 1 : 0;
     return acc + trueVoter;
-  }, 0)
-}
+  }, 0);
+};

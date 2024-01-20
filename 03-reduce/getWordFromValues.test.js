@@ -7,6 +7,6 @@ describe("Given getWordFromValues", () => {
     const numbersWord = getWordFromValues(VALUES);
 
     expect(numbersWord).toBeDefined();
-    expect(numbersWord).toEqual(expectedResult)
+    expect(numbersWord).toEqual(expectedResult);
   });
 });
