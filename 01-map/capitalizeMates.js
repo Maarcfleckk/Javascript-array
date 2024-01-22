@@ -12,7 +12,7 @@ export const capitalizeMates = function (mates) {
 
     const restOfName = mate.slice(1).toLowerCase();
 
-    const capitalizedMate = firstLetter + restOfName;
+    const capitalizedMate = `${firstLetter}${restOfName}`;
 
     return capitalizedMate;
   });
